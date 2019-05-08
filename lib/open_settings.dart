@@ -6,7 +6,7 @@ class OpenSettings {
   static const MethodChannel _channel = const MethodChannel('open_settings');
 
   /// Open Wifi settings
-  static Future<void> openWIFISetting() async {
+    static Future<void> openWIFISetting() async {
     await _channel.invokeMethod('openSettings', 'wifi');
   }
 
