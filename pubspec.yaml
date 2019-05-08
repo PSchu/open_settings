@@ -1,7 +1,7 @@
 name: open_settings
-description: A flutter plugin packages for open the app settings in Android
+description: A flutter plugin packages for open the app settings in Android and Ios
 version: 0.0.1
-author: Ali Hoseinpoor <iamhoseinpoor@gmail.com>
+author: "Ali Hoseinpoor <iamhoseinpoor@gmail.com>"
 homepage: https://github.com/AliHoseinpoor/open_settings
 
 environment:
