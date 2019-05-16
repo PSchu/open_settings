@@ -95,6 +95,17 @@ class _MyHomePageState extends State<MyHomePage> {
             new SizedBox(
               height: 15,
             ),
+            new RaisedButton(
+              onPressed: () {
+                OpenSettings.openSecuritySetting();
+              },
+              child: new Center(
+                child: new Text('Security'),
+              ),
+            ),
+            new SizedBox(
+              height: 15,
+            ),
           ],
         ),
       ),
