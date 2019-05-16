@@ -1,3 +1,7 @@
+## open_settings 1.0.0
+Add openSecuritySetting() to access platform specific 'security' settings menu.
+<br/>
+
 ## open_settings 0.0.1
 
 ## Platform Specifics
