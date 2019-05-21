@@ -55,6 +55,10 @@ public class OpenSettingsPlugin implements MethodCallHandler {
                     target = "android.settings.SECURITY_SETTINGS";
                     handleJumpToSetting(target);
                     break;
+                case "sound":
+                    target = "android.settings.SOUND_SETTINGS";
+                    handleJumpToSetting(target);
+                    break;
             }
         } else {
             result.notImplemented();

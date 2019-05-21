@@ -39,4 +39,9 @@ class OpenSettings {
   static Future<void> openSecuritySetting() async {
     _channel.invokeMethod('openSettings', 'security');
   }
+
+  /// Open sound Screen settings
+  static Future<void> openSoundSetting() async {
+    _channel.invokeMethod('openSettings', 'sound');
+  }
 }
