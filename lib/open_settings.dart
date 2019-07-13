@@ -44,4 +44,19 @@ class OpenSettings {
   static Future<void> openSoundSetting() async {
     _channel.invokeMethod('openSettings', 'sound');
   }
+
+  /// Open main settings
+  static Future<void> openMainSetting() async {
+    _channel.invokeMethod('openSettings', 'main_setting');
+  }
+
+  /// Open Date settings
+  static Future<void> openDateSetting() async {
+    _channel.invokeMethod('openSettings', 'date');
+  }
+
+  /// Open Display settings
+  static Future<void> openDisplaySetting() async {
+    _channel.invokeMethod('openSettings', 'display');
+  }
 }

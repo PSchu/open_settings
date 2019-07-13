@@ -3,7 +3,7 @@
 #
 Pod::Spec.new do |s|
   s.name             = 'open_settings'
-  s.version          = '0.0.1'
+  s.version          = '1.0.1'
   s.summary          = 'A flutter plugin packages for open the app settings in Android'
   s.description      = <<-DESC
 A flutter plugin packages for open the app settings in Android

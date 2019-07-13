@@ -2,7 +2,7 @@
 
 [![pub package](version_image.svg)](https://pub.dartlang.org/packages/open_settings)
 
-## A Flutter plugin for jumping to system settings. 
+## The most complete flutter plugin packages for open various settings screen in Android and Ios 
 
 ### For Android:<br/>
 this plugin currently support jumping to WiFi, Mobile Data, Bluetooth ,Location, App Setting And Notification setting.<br/> 

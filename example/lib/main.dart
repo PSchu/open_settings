@@ -97,7 +97,7 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
             new RaisedButton(
               onPressed: () {
-                OpenSettings.openSecuritySetting();
+                OpenSettings.openDisplaySetting();
               },
               child: new Center(
                 child: new Text('Security'),

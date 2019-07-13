@@ -1,3 +1,7 @@
+## open_settings 1.0.2
+Add openMainSetting() and openDateSetting() and openDisplaySetting() to access platform specific 'main setting' , 'date setting' , 'display setting' settings menu.
+<br/>
+
 ## open_settings 1.0.1
 Add openSoundSetting() to access platform specific 'sound' settings menu.
 <br/>

@@ -24,7 +24,8 @@ public class OpenSettingsPlugin implements MethodCallHandler {
     public void onMethodCall(MethodCall call, Result result) {
         String setting = (String) call.arguments;
         String target;
-        System.out.println("salam : " + setting);
+        System.out.println("sssssssssssssss");
+
         if (call.method.equals("openSettings")) {
             switch (setting) {
                 case "wifi":
@@ -59,6 +60,19 @@ public class OpenSettingsPlugin implements MethodCallHandler {
                     target = "android.settings.SOUND_SETTINGS";
                     handleJumpToSetting(target);
                     break;
+                case "main_setting":
+                    target = "android.settings.SETTINGS";
+                    handleJumpToSetting(target);
+                    break;
+                case "date":
+                    target = "android.settings.DATE_SETTINGS";
+                    handleJumpToSetting(target);
+                    break;
+                case "display":
+                    target = "android.settings.DISPLAY_SETTINGS";
+                    handleJumpToSetting(target);
+                    break;
+
             }
         } else {
             result.notImplemented();
